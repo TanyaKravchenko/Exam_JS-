@@ -1,0 +1,82 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    background-color:#F5F5DC;
+}
+
+.slider_container {
+    max-width: 1280px;
+    width: 100%;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 15px;
+    }
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    width: auto;
+    top: 40%;
+    padding: 25px;
+    font-weight: bold;
+    font-size: 35px;
+    color:#03f4fc;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: #008080;
+}
+
+.text {
+    position: absolute;
+    color: #fff;
+    font-size: 25px;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+    text-shadow: 1px 1px 1px #000, 0 0 1em #000;
+}
+
+.numbertext {
+    font-size: 20px;
+    font-weight: bold;
+    color: #008080;
+}
+
+.dot {
+    cursor: pointer;
+    height: 13px;
+    width: 13px;
+    margin: 0 2px;
+    background-color: #008080;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active_dot, .dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.6s;
+}
+
+@keyframes fade {
+    from{opacity: .4}
+    to{opacity: 1}
+}
+
+

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kravchenko Tanya"/>
+	<meta name="description" content="Slider. Nature."/>
+    <title>Exam_JS</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/media.css" />
+</head>
+<body>
+    <div class="slider_container">
+        <div class="slider_item fade">
+            <div class="numbertext">1/7</div>
+            <img style = "height: 500px; "  
+            src="./image/Boats_Lake_Mountains_Italy_Lake_Braies_Fog.jpg" 
+            alt="Boats_Lake_Mountains_Italy_Lake_Braies_Fog">
+            <div class="text">Lake Mountains. Italy</div>
+        </div>
+        <div class="slider_item fade">
+            <div class="numbertext">2/7</div>
+            <img style = "height: 500px;" 
+            src="./image/Evening_Italy_Sun_Marco_Square_Town_square_Venice.jpg" 
+            alt="Evening_Italy_Sun_Marco_Square_Town_square_Venice.">
+            <div class="text">Italy. Sun Marco Square. Town square. Venice</div>
+        </div>
+        <div class="slider_item fade">
+            <div class="numbertext">3/7</div>
+            <img style = "height: 500px;" 
+            src="./image/Mountains_Lofoten_Norway_Scenery_Reinebringen.jpg" 
+            alt="Mountains_Lofoten_Norway_Scenery_Reinebringen.jpg">
+            <div class="text">Mountains Lofoten. Norway. Scenery Reinebringen</div>
+        </div>
+        <div class="slider_item fade">
+            <div class="numbertext">4/7</div>
+            <img style = "height: 500px;" 
+            src="./image/Russia_Moscow_Christmas_Temples_Evening_St._Basil.jpg" 
+            alt="Russia_Moscow_Christmas_Temples_Evening_St._Basil">
+            <div class="text">Russia. Moscow. Christmas Temples Evening St. Basil</div>
+        </div>
+        <div class="slider_item fade">
+            <div class="numbertext">5/7</div>
+            <img style = "height: 500px;"
+            src="./image/Sea_Sky_Lighthouses_Norway_Lindesnes_Lighthouse.jpg" 
+            alt="Sea_Sky_Lighthouses_Norway_Lindesnes_Lighthouse">
+            <div class="text">Sea Sky Lighthouses. Norway. Lindesnes Lighthouse</div>
+        </div>
+        <div class="slider_item fade">
+            <div class="numbertext">6/7</div>
+            <img style = "height: 500px;"
+            src="./image/Stones_Lupinus_Scenery_Mountains_Slovenia_Tatra.jpg" 
+            alt="Stones_Lupinus_Scenery_Mountains_Slovenia_Tatra.">
+            <div class="text">Stones Lupinus Scenery Mountains. Slovenia.Tatra</div>
+        </div>
+        <div class="slider_item fade">
+            <div class="numbertext">7/7</div>
+            <img style = "height: 500px;"
+            src="./image/priroda_2.jpg" 
+            alt="priroda">
+            <div class="text">Priroda. Mountains. Summer.</div>
+        </div>
+    </div>
+
+    <div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+        <a class="next" onclick="plusSlides(1)">&#10095</a>
+    </div>
+
+    <div class = "media" style="text-align: center;">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+        <span class="dot" onclick="currentSlide(7)"></span>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
