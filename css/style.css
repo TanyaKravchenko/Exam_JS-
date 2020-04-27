@@ -5,6 +5,7 @@
 
 body {
     background-color:#F5F5DC;
+
 }
 
 .slider_container {
@@ -14,7 +15,12 @@ body {
     margin: auto;
     text-align: center;
     margin-bottom: 15px;
+       
     }
+
+.slider_item img{
+    width: 100%;
+}
 
 .prev, .next {
     cursor: pointer;
@@ -33,6 +39,11 @@ body {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
+
+.prev {
+    left: 0;
+}
+
 
 .prev:hover, .next:hover {
     background-color: #008080;
